@@ -54,4 +54,6 @@ compile_commands.json
 *_qmlcache.qrc
 
 # Custom ignores
+.qtc_clangd/
 build/
+radio-929-lu.app/

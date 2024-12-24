@@ -5,6 +5,8 @@ int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
 
+    qputenv("QT_DEBUG_PLUGINS", QByteArray("1"));
+
     QQmlApplicationEngine engine;
 
     // Load the main qml file
